@@ -1,1 +1,10 @@
-<p>main works!</p>
+<div class="image">
+    <img src="../../assets/mainimage.jpg" alt="main">
+    <h1 (mouseover)="hoverIn()" (mouseleave)="hoverOut()" [@text]=" textState ">
+        UP TO
+        <br /> 25% OFF
+    </h1>
+</div>
+
+
+<h2 (click)="changeColor()" [@color]="colorState"> UPPER SALE <br> SHOP NOW</h2>
