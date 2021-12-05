@@ -7,6 +7,12 @@ import { Component1Component } from './component1/component1.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { Component2Component } from './component2/component2.component';
 import { IndexComponent } from './index/index.component';
+import { Component3Component } from './component3/component3.component';
+import { Component4Component } from './component4/component4.component';
+import { Component5Component } from './component5/component5.component';
+import { Component6Component } from './component6/component6.component';
+import { Component7Component } from './component7/component7.component';
+import { Component8Component } from './component8/component8.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { IndexComponent } from './index/index.component';
     Component1Component,
     NotfoundComponent,
     Component2Component,
-    IndexComponent
+    IndexComponent,
+    Component3Component,
+    Component4Component,
+    Component5Component,
+    Component6Component,
+    Component7Component,
+    Component8Component
   ],
   imports: [
     BrowserModule,
