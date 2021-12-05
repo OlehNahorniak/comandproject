@@ -9,13 +9,14 @@ import { Component6Component } from './component6/component6.component';
 import { Component7Component } from './component7/component7.component';
 import { Component8Component } from './component8/component8.component';
 import { NotfoundComponent } from './notfound/notfound.component';
-import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
+import { MainComponent } from './main/main.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: 'Index', pathMatch:'full'},
   { path: 'Index', component: IndexComponent},
+  { path: 'main', component: MainComponent},
   { path: 'component1', component: Component1Component},
   { path: 'component2', component: Component2Component},
   { path: 'component3', component: Component3Component},
