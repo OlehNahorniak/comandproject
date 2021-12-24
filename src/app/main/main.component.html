@@ -1,6 +1,7 @@
-<div class="image">
+<div class="image" [@illumination]="illuminationState"
+(mouseenter)='start()' (mouseleave)='end()'>
     <img src="../../assets/mainimage.jpg" alt="main">
-    <h1 (mouseover)="hoverIn()" (mouseleave)="hoverOut()" [@text]=" textState ">
+    <h1 (mouseover)="hoverIn()" (mouseleave)="hoverOut()" [@text]="textState">
         UP TO
         <br /> 25% OFF
     </h1>
