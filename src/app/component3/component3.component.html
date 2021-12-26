@@ -1,4 +1,5 @@
-<div class="image">
-    <img src="../../assets/component3image.jpg" alt="image" [@illumination]="illuminationState"
-    (mouseenter)='start()' (mouseleave)='end()'>
+<div class="image" [@illumination]="illuminationState" (mouseenter)='start()' (mouseleave)='end()'>
+    <img class="under" src="../../assets/component3/component3image.jpg" alt="image">
+    <img class="over" src="../../assets/component3/component3image_desing.gif" alt="image" [@illumination]="illuminationState" (mouseenter)='start()' (mouseleave)='end()'>
+    <img class="overtext" src="../../assets/component3/component3image_tetx.gif" alt="image">
 </div>

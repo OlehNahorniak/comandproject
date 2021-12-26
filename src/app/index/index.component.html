@@ -1,54 +1,54 @@
 <div id="Body">
-  <div class="wrapper">
-    <div class="head">
-      <h3>SOCIAL MEDIA POST TEMPLATE</h3>
-      <h4>SALES</h4>
-    </div>
+    <div class="wrapper">
+        <div class="head" (mouseover)="hoverIn()" (mouseleave)="hoverOut()" [@text]="textState">
+            <h3>SOCIAL MEDIA POST TEMPLATE</h3>
+            <h4 (click)="changeColor()" [@color]="colorState">SALES</h4>
+        </div>
 
-    <nav class="sales">
-      <a class="mainDiv" routerLink="/main" routerLinkActive="active">
-        <app-main class="miniVersion"></app-main>
-      </a>
-      <a routerLink="/component1" routerLinkActive="active">
-        <div class="mini">
-          <app-component1 class="miniVersion" ></app-component1>
-        </div>
-      </a>
-      <a routerLink="/component2" routerLinkActive="active">
-        <div class="mini">
-          <app-component2 class="miniVersion" ></app-component2>
-        </div>
-      </a>
-      <a routerLink="/component3" routerLinkActive="active">
-        <div class="mini">
-          <app-component3 class="miniVersion"></app-component3>
-        </div>
-      </a>
-      <a routerLink="/component4" routerLinkActive="active">
-        <div class="mini">
-          <app-component4 class="miniVersion"></app-component4>
-        </div>
-      </a>
-      <a routerLink="/component5" routerLinkActive="active">
-        <div class="mini">
-          <app-component5 class="miniVersion"></app-component5>
-        </div>
-      </a>
-      <a routerLink="/component6" routerLinkActive="active">
-        <div class="mini">
-          <app-component6 class="miniVersion"></app-component6>
-        </div>
-      </a>
-      <a routerLink="/component7" routerLinkActive="active">
-        <div class="mini">
-          <app-component7 class="miniVersion"></app-component7>
-        </div>
-      </a>
-      <a routerLink="/component8" routerLinkActive="active">
-        <div class="mini">
-          <app-component8 class="miniVersion" ></app-component8>
-        </div>
-      </a>
-    </nav>
-  </div>
+        <nav class="sales">
+            <div class="mainDiv">
+                <app-main class="miniVersion"></app-main>
+            </div>
+            <a routerLink="/component1" routerLinkActive="active">
+                <div class="mini">
+                    <app-component1 class="miniVersion"></app-component1>
+                </div>
+            </a>
+            <a routerLink="/component2" routerLinkActive="active">
+                <div class="mini">
+                    <app-component2 class="miniVersion"></app-component2>
+                </div>
+            </a>
+            <a routerLink="/component3" routerLinkActive="active">
+                <div class="mini">
+                    <app-component3 class="miniVersion"></app-component3>
+                </div>
+            </a>
+            <a routerLink="/component4" routerLinkActive="active">
+                <div class="mini">
+                    <app-component4 class="miniVersion"></app-component4>
+                </div>
+            </a>
+            <a routerLink="/component5" routerLinkActive="active">
+                <div class="mini">
+                    <app-component5 class="miniVersion"></app-component5>
+                </div>
+            </a>
+            <a routerLink="/component6" routerLinkActive="active">
+                <div class="mini">
+                    <app-component6 class="miniVersion"></app-component6>
+                </div>
+            </a>
+            <a routerLink="/component7" routerLinkActive="active">
+                <div class="mini">
+                    <app-component7 class="miniVersion"></app-component7>
+                </div>
+            </a>
+            <a routerLink="/component8" routerLinkActive="active">
+                <div class="mini">
+                    <app-component8 class="miniVersion"></app-component8>
+                </div>
+            </a>
+        </nav>
+    </div>
 </div>

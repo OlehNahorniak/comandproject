@@ -1,11 +1,6 @@
-<div class="image" [@illumination]="illuminationState"
-(mouseenter)='start()' (mouseleave)='end()'>
-    <img src="../../assets/mainimage.jpg" alt="main">
-    <h1 (mouseover)="hoverIn()" (mouseleave)="hoverOut()" [@text]="textState">
-        UP TO
-        <br /> 25% OFF
-    </h1>
+<div class="image" [@illumination]="illuminationState" (mouseenter)='start()' (mouseleave)='end()'>
+    <img class="under" src="../../assets/main/mainimage.jpg" alt="main">
+    <img class="over" src="../../assets/main/mainimage_desing.gif" alt="main" [@illumination]="illuminationState" (mouseenter)='start()' (mouseleave)='end()'>
+    <img class="overtext" src="../../assets/main/mainimage_text.gif" alt="main">
+
 </div>
-
-
-<h2 (click)="changeColor()" [@color]="colorState"> UPPER SALE <br> SHOP NOW</h2>
